@@ -1,0 +1,49 @@
+name: "➕ Thêm sản phẩm"
+description: Dán link Shopee và/hoặc TikTok Shop — web tự lấy tên + hình
+title: "Thêm sản phẩm"
+labels: ["them-san-pham"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Cách dán:** điền 1 trong 2 ô hoặc cả 2.
+        • Mỗi ô có **1 link** → gộp thành **1 sản phẩm** có 2 nút mua (Shopee + TikTok).
+        • Nhiều link (mỗi dòng 1 link) → mỗi link là 1 sản phẩm riêng.
+        • Dán link TikTok cho sản phẩm **đã có** link Shopee → điền cả link Shopee cũ vào ô Shopee, web sẽ gắn thêm nút TikTok.
+  - type: textarea
+    id: shopee
+    attributes:
+      label: Link Shopee
+      placeholder: https://s.shopee.vn/xxxxxx
+  - type: textarea
+    id: tiktok
+    attributes:
+      label: Link TikTok Shop
+      placeholder: https://vt.tiktok.com/xxxxxx
+  - type: input
+    id: brand
+    attributes:
+      label: Thương hiệu
+      description: Bỏ trống thì web tự đoán (đoán không ra sẽ xếp vào "Khác")
+      placeholder: La Roche-Posay
+  - type: input
+    id: note
+    attributes:
+      label: Ghi chú ngắn (không bắt buộc)
+      placeholder: Da dầu mụn dùng ok
+  - type: checkboxes
+    id: hot
+    attributes:
+      label: Nổi bật
+      options:
+        - label: Đưa vào mục 🔥 Đang hot
+  - type: input
+    id: name
+    attributes:
+      label: Tên tự đặt (không bắt buộc)
+      description: Điền nếu muốn ghi đè tên tự lấy — chỉ áp dụng khi thêm 1 sản phẩm
+  - type: input
+    id: image
+    attributes:
+      label: Link hình tự chọn (không bắt buộc)
+      description: Điền nếu web không tự lấy được hình — chỉ áp dụng khi thêm 1 sản phẩm
