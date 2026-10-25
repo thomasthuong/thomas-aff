@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Thomas Thương — Beauty Universe</title>
+  <meta name="description" content="Tủ đồ beauty của Thomas — skincare, makeup, link Shopee & TikTok Shop." />
+  <meta property="og:title" content="Thomas Thương — Beauty Universe" />
+  <meta property="og:description" content="Tủ đồ beauty của Thomas — chạm để mua trên Shopee hoặc TikTok Shop." />
+  <meta name="theme-color" content="#05030f" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="space" aria-hidden="true"></canvas>
+  <div class="nebula n1" aria-hidden="true"></div>
+  <div class="nebula n2" aria-hidden="true"></div>
+  <div class="nebula n3" aria-hidden="true"></div>
+  <div class="grid-floor" aria-hidden="true"></div>
+
+  <main class="wrap">
+    <header class="hero">
+      <div class="orbit">
+        <div class="ring r1"></div>
+        <div class="ring r2"><span class="moon"></span></div>
+        <div class="avatar" id="avatar"></div>
+      </div>
+      <p class="tag">✦ BEAUTY UNIVERSE ✦</p>
+      <h1 id="name">Thomas</h1>
+      <p class="handle" id="handle"></p>
+      <p class="bio" id="bio"></p>
+      <nav class="socials" id="socials"></nav>
+      <div class="stats" id="stats"></div>
+    </header>
+
+    <section class="controls">
+      <label class="search">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input id="q" type="search" placeholder="Tìm sản phẩm, thương hiệu…" autocomplete="off" />
+      </label>
+      <div class="segs" id="plat"></div>
+      <div class="chips" id="chips" role="tablist"></div>
+    </section>
+
+    <section id="hot" class="hot-wrap"></section>
+    <section id="groups"></section>
+    <p class="empty" id="empty" hidden>Không tìm thấy sản phẩm nào 🪐</p>
+
+    <footer class="foot">
+      <p>Link affiliate Shopee & TikTok Shop — mua qua link giúp Thomas có thêm động lực làm video 💜</p>
+    </footer>
+  </main>
+
+  <button class="to-top" id="toTop" aria-label="Lên đầu trang">↑</button>
+  <script src="app.js"></script>
+</body>
+</html>
