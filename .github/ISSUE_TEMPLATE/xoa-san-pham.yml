@@ -1,0 +1,12 @@
+name: "🗑️ Xoá sản phẩm"
+description: Gỡ sản phẩm khỏi web bằng link hoặc tên
+title: "Xoá sản phẩm"
+labels: ["xoa-san-pham"]
+body:
+  - type: textarea
+    id: links
+    attributes:
+      label: Link hoặc tên sản phẩm cần xoá
+      description: Mỗi dòng 1 cái. Dán đúng link đã thêm, hoặc 1 đoạn tên sản phẩm (VD "Ví dụ" để xoá hết sản phẩm mẫu)
+    validations:
+      required: true
