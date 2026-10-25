@@ -1,0 +1,69 @@
+{
+  "profile": {
+    "name": "Thomas Thương",
+    "handle": "@mrthomas__",
+    "bio": "Beauty • Skincare • Makeup — đồ mình dùng thật, review thật. Chọn mua trên Shopee hoặc TikTok Shop nha 💗",
+    "avatar": "",
+    "socials": [
+      {
+        "label": "TikTok",
+        "url": "https://www.tiktok.com/@mrthomas__"
+      }
+    ]
+  },
+  "affiliate": {
+    "shopeeId": "",
+    "subId": "web"
+  },
+  "brandOrder": [],
+  "products": [
+    {
+      "id": "vidu-1",
+      "shopee": "https://shopee.vn",
+      "tiktok": "https://www.tiktok.com/shop",
+      "name": "Sản phẩm ví dụ — Serum phục hồi da (xoá khi thêm sản phẩm thật)",
+      "image": "",
+      "brand": "La Roche-Posay",
+      "price": "",
+      "note": "Da nhạy cảm dùng ok",
+      "hot": true,
+      "addedAt": 1761400000000
+    },
+    {
+      "id": "vidu-2",
+      "shopee": "https://shopee.vn",
+      "tiktok": "",
+      "name": "Sản phẩm ví dụ — Kem chống nắng",
+      "image": "",
+      "brand": "La Roche-Posay",
+      "price": "",
+      "note": "",
+      "hot": false,
+      "addedAt": 1761400000001
+    },
+    {
+      "id": "vidu-3",
+      "shopee": "https://shopee.vn",
+      "tiktok": "https://www.tiktok.com/shop",
+      "name": "Sản phẩm ví dụ — Son kem lì",
+      "image": "",
+      "brand": "Romand",
+      "price": "",
+      "note": "Màu best-seller",
+      "hot": true,
+      "addedAt": 1761400000002
+    },
+    {
+      "id": "vidu-4",
+      "shopee": "",
+      "tiktok": "https://www.tiktok.com/shop",
+      "name": "Sản phẩm ví dụ — Toner cấp ẩm",
+      "image": "",
+      "brand": "Torriden",
+      "price": "",
+      "note": "",
+      "hot": false,
+      "addedAt": 1761400000003
+    }
+  ]
+}
